@@ -1,5 +1,6 @@
 FROM node:12.18.0
 
+RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.list
 RUN apt-get update
 
 # popper-utils for pdfinfo
