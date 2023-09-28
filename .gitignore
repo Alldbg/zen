@@ -1,7 +1,7 @@
 db-wordpress-data
 backups
 postgres-data
-/.env
+#.env
 /.env.dev
 /.env.qa
 /.env.prod

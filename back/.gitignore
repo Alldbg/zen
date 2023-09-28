@@ -65,5 +65,5 @@ uploads
 datalake
 extracts
 config/*production*.js
-config/local*.js
+#config/local*.js
 var
